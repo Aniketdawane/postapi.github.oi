@@ -1,0 +1,72 @@
+.logo h1 {
+    border: 2px solid rgb(22, 13, 13);
+    padding: 2px;
+    color: rgb(158, 5, 5);
+    font-weight: bold;
+    font-family: 'Tiro Devanagari Marathi', serif;
+}
+.main{
+    border: 1px solid blue;
+    height: 90vh;
+    background-color: blanchedalmond;
+
+}
+.box{
+    border: 1px solid black;
+}
+/* .box1{
+    border: ;
+} */
+
+
+#pindata {
+
+   border: 2px solid red; 
+    background: #603813;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b29f94, #603813);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b29f94, #603813);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.input{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.navlist {
+    color: blue !important;
+    font-weight: bold;
+    font-size: larger;
+}
+.main .input {
+    height: 25rem;
+}
+
+.row .col img {
+    height: 21.2rem;
+    width: 40rem;
+}
+
+.content {
+    height: 50rem;
+    width: 30rem;
+}
+
+.content h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: tomato;
+    font-weight: bold;
+}
+
+.pincode input {
+    height: 3rem;
+    background-color: transparent;
+    border-radius: 10px;
+    color: initial;
+    font-size: 1.5rem;
+}
+/* .main{ */
+    /* border: 2px solid red; */

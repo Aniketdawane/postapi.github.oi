@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi&display=swap" rel="stylesheet">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Post Office Nearest To Yuo......</title>
+</head>
+
+<body>
+    <!-- nav bar starts  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="#">
+                <h1>Bhartiya Dak </h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navlist">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="https://www.indiapost.gov.in/VAShindi/Pages/IndiaPosthome.aspx">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="https://www.trackcourier.com/bhartiya-dak-courier-tracking/">Service</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- alert for wrong pincode -->
+    <!-- alert for wrong pincode -->
+    <!-- nav bar ends  -->
+    <header>
+        <div class="alert1"></div>
+        <div class="container-fluid main">
+            <div class="container input">
+                <div class="row">
+                    <div class="col">
+                        <img src="img/indiapost.png" alt="">
+                    </div>
+                    <div class="col ">
+                        <div class="col-lg-6 content">
+                            <div class="bg-white text-center rounded p-5">
+                                <h1 class="mb-4 "> Find Post Office Nearest to you...!</h1>
+                                <div class="row g-3">
+                                    <div class="col-12 col">
+                                        <form name="myForm" class="form mt-5" id="myForm">
+                                            <div class="pincode" id="pincode " pincode-target-input="nearest">
+                                                <input name="pincode" type="number"
+                                                    class="form-control bg-light border-0 pincodetimepicker-input"
+                                                    placeholder="Enter Pincode Here" data-target="#pincode"
+                                                    data-toggle="pincodetimepicker" style="height: 55px;">
+                                            </div>
+                                            <div class="col-12">
+                                                <button class="btn btn-primary w-100 py-3" type="submit">Search</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- displyaing div  -->
+    <div class="container-fluid py-5" id="data">
+        <div class="data" id="pindata">
+            <div class="container">
+                <div class="row md-3">
+                  <div class="col">
+                    <h3 class="text-center">village</h3>
+                  </div>
+                  <div class="col md-3">
+                    <h3 class="text-center">Pincode</h3>
+                  </div>
+                  <div class="col md-3">
+                    <h3 class="text-center">Districts</h3>
+                  </div>
+                  <div class="col md-3">
+                    <h3 class="text-center">State</h3>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+    </div>
+    <!-- displyaing div  -->
+    <script src="main.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
